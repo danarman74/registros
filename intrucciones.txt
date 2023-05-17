@@ -1,0 +1,46 @@
+--*************---
+para realizar el login se deberá consumir la api rest con los siguientes parámetros
+funcion->el tipo de función que se va a realizar en este caso login
+usr->nombre del usuario
+password->contraseña la api encripta la contraseña
+
+http://localhost/registros/registros.php?funcion=login&usr=s2credit&password=s2credit
+
+
+--************--
+para realizar alguna inserción es la misma liga, pero con diferentes paramentos 
+funcion->el tipo de función que se va a realizar en este caso nuevo
+usr->nombre del usuario
+password->contraseña la api encripta la contraseña
+
+http://localhost/registros/registros.php?funcion=nuevo&nombre=pedro&usr=jgomez&password=jgomez
+
+
+
+--************--
+para realizar alguna modificación del registro se consume la misma api con diferentes paramentos
+funcion->el tipo de función que se va a realizar en este caso update
+usr->nombre del usuario al que se le va a modificar
+password->contraseña la api encripta la contraseña
+nombre-> nombre del usuario
+status-> este parámetro solo admite Activo o Inactivo
+usrNuevo->por si requiere cambiar un nuevo usuario
+NOTA: no es forzoso ingresar todos los parámetros 
+
+http://localhost/registros/registros.php?funcion=update&usr=dagonzalez&nombre=Armando&password=s&usrNuevo=s&status=s
+
+
+--**********--
+para realizar una eliminacion se ocupa la misma liga con los siguientes parametros
+funcion
+usrDelete->usuario a eliminar
+http://localhost/registros/registros.php?funcion=delete&usr=dagonzalez
+
+
+
+
+
+
+
+--**********---
+se abjunta la base de datos en archivo sql 
